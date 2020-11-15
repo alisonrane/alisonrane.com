@@ -15,6 +15,12 @@ subtitle = ""
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
 
 [[feature]]
+  icon = "chart-line"
+  icon_pack = "fas"
+  name = "Data Visualization"
+  description = "Shiny, Tableau"
+
+[[feature]]
   icon = "r-project"
   icon_pack = "fab"
   name = "R/RStudio"
@@ -23,12 +29,6 @@ subtitle = ""
   icon = "database"
   icon_pack = "fas"
   name = "SQL/MySQL" 
-
-[[feature]]
-  icon = "chart-line"
-  icon_pack = "fas"
-  name = "Data Visualization"
-  description = "Shiny, Tableau"
   
 [[feature]]
   icon = "code-branch"
