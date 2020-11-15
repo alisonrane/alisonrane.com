@@ -46,7 +46,7 @@ experience:
   date_start: "2015-02-01"
   description: 
   location: 
-  title: Manager of Research & Development, Associate Consultant
+  title: Associate Consultant, R&D Lead
 - company: Loyola University Chicago
   company_url: "https://www.luc.edu"
   date_end: "2015-02-01"
