@@ -61,4 +61,11 @@ experience:
   description: 
   location: 
   title: Prospect Management & Research Analyst
+- company: Northwestern University
+  company_url: "https://www.northwestern.edu"
+  date_end: "2012-09-01"
+  date_start: "2008-09-01"
+  description: Masters in Political Science
+  location: 
+  title: 
 ---

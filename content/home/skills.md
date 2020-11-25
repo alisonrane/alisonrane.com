@@ -23,7 +23,7 @@ subtitle = ""
 [[feature]]
   icon = "r-project"
   icon_pack = "fab"
-  name = "R/RStudio"
+  name = "R"
   
 [[feature]]
   icon = "database"
@@ -34,8 +34,14 @@ subtitle = ""
   icon = "code-branch"
   icon_pack = "fas"
   name = "Git"
-  description = "Bitbucket, Github"
+  description = "Enough to get by"
     
+[[feature]]
+  icon = "wifi"
+  icon_pack = "fas"
+  name = "Working remotely"
+  description = "Since 2015"
+  
 # Uncomment to use emoji icons.
 # [[feature]]
 #  icon = ":smile:"
