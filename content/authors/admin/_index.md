@@ -32,6 +32,9 @@ title: Alison Rane
 user_groups:
 ---
 
-I’m Alison, and I currently serve as a consultant and internal business intelligence for a firm that supports fundraising at mission-driven organizations. My experience has included substantial and nuanced data analysis projects for clients; designing, building, and managing small internal databases and applications; and managing IT services for a medium-sized professional services firm. As I look forward, I’m eager to invest further in my statistical skills working on projects that advance progressive causes. 
+I’m Alison, and I currently serve as a consultant and internal business intelligence for a firm that supports fundraising at mission-driven organizations. My experience has included data analysis projects for clients; designing, building, and managing small internal databases and applications; and managing IT services for a medium-sized professional services firm. As I look forward, I’m eager to invest further in my statistical skills working on projects that advance progressive causes. 
 
-The best way to get in touch with me is through Twitter.
+An example my data analysis (outside of work): 
+  * [Exploring Emo Music with Spotify Data](https://alisonrane.github.io/emo_exploration)
+
+If you don't have my contact info, the best way to get in touch with me is through Twitter.
