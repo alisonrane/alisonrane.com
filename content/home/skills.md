@@ -18,7 +18,7 @@ subtitle = ""
   icon = "chart-line"
   icon_pack = "fas"
   name = "Data Visualization"
-  description = "Shiny, Tableau"
+  description = "ggplot2, Shiny, Tableau"
 
 [[feature]]
   icon = "r-project"
@@ -35,12 +35,7 @@ subtitle = ""
   icon_pack = "fas"
   name = "Git"
   description = "Enough to get by"
-    
-[[feature]]
-  icon = "wifi"
-  icon_pack = "fas"
-  name = "Working remotely"
-  description = "Since 2015"
+
   
 # Uncomment to use emoji icons.
 # [[feature]]
