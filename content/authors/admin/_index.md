@@ -18,12 +18,15 @@ organizations:
   url: 
 role: 
 social:
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/alisonrane
+- icon: envelope
+  icon_pack: fas
+  link: mailto:hello@alisonrane.com
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/alisonrane
+- icon: salesforce
+  icon_pack: fab
+  link: https://trailblazer.me/id/alisonrane
 - icon: github
   icon_pack: fab
   link: https://github.com/alisonrane
@@ -32,9 +35,7 @@ title: Alison Rane
 user_groups:
 ---
 
-I’m Alison, and I currently serve as a consultant and internal business intelligence for a fully remote firm that supports fundraising at mission-driven organizations. My experience has included data analysis projects for clients; designing, building, and managing small internal databases and applications; and managing the CRM and IT services for a medium-sized professional services firm. 
+I’m Alison, and I currently serve as a consultant and internal business intelligence for a fully remote firm that supports fundraising at mission-driven organizations. My experience has included data analysis projects for clients; designing, building, and managing small internal databases and applications; leading a CRM upgrade and conversion; implementing BI dashboards; and ongoing management of CRM and IT services for a medium-sized professional services firm. 
 
-An example my data analysis (outside of work): 
+An example of my data analysis (outside of work): 
   * [Exploring Emo Music with Spotify Data](https://alisonrane.github.io/emo_exploration)
-
-If you don't have my contact info, the best way to get in touch with me is through Twitter.
