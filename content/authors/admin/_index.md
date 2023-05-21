@@ -35,7 +35,7 @@ title: Alison Rane
 user_groups:
 ---
 
-I’m Alison, and I currently serve as a consultant and internal business intelligence for a fully remote firm that supports fundraising at mission-driven organizations. My experience has included data analysis projects for clients; designing, building, and managing small internal databases and applications; leading a CRM upgrade and conversion; implementing BI dashboards; and ongoing management of CRM and IT services for a medium-sized professional services firm. 
+I’m Alison, and I am a data strategist and analyst for mission-driven organizations. I'm an optimizer and system-builder by nature, solving organizational problems with data tools and products. My experience includes data analysis projects for various nonprofit organizations across the sector; designing, building, and managing small internal databases and applications; leading a CRM upgrade and implementation of new business systems; building BI dashboards; and management of CRM and IT services for a medium-sized professional services firm. 
 
 An example of my data analysis (outside of work): 
   * [Exploring Emo Music with Spotify Data](https://alisonrane.github.io/emo_exploration)

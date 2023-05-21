@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alison Rane</title>
+    <link>/</link>
+      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <description>Alison Rane</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Alison Rane 2023</copyright>
+    <image>
+      <url>/images/icon_hu3eb0768e21314912bb27518a2506d1ae_663_512x512_fill_lanczos_center_3.png</url>
+      <title>Alison Rane</title>
+      <link>/</link>
+    </image>
+    
+  </channel>
+</rss>

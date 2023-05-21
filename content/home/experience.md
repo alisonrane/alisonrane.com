@@ -25,40 +25,35 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   You can begin a multiline `description` using YAML's `|-`.
 experience:
-- company: Marts&Lundy
-  company_url: "http://www.martsandlundy.com/"
+- company: USO
+  company_url: "https://www.uso.org"
   date_end: ""
+  date_start: "2023-04-01"
+  title: Manager - Business Intelligence and Reporting (Development)
+- company: Marts&Lundy
+  company_url: "https://www.martsandlundy.com/"
+  date_end: "2023-04-01"
   date_start: "2020-03-01"
-  description: 
-  location: Remote
   title: Director of Business Intelligence, Consultant
 - company: Marts&Lundy
-  company_url: "http://www.martsandlundy.com/"
+  company_url: "https://www.martsandlundy.com/"
   date_end: "2020-02-01"
   date_start: "2018-01-01"
-  description: 
-  location: Remote
   title: Director of Research & Development, Consultant
 - company: Marts&Lundy
-  company_url: "http://www.martsandlundy.com/"
+  company_url: "https://www.martsandlundy.com/"
   date_end: "2017-12-01"
   date_start: "2015-02-01"
-  description: 
-  location: Remote
   title: Associate Consultant, R&D Lead
 - company: Loyola University Chicago
   company_url: "https://www.luc.edu"
   date_end: "2015-02-01"
   date_start: "2014-09-01"
-  description: 
-  location: Chicago, IL
   title: Advancement Data Analytics Specialist
 - company: Loyola University Chicago
   company_url: "https://www.luc.edu"
   date_end: "2014-08-01"
   date_start: "2012-09-01"
-  description: 
-  location: Chicago, IL
   title: Prospect Management & Research Analyst
 - company: Northwestern University
   company_url: "https://www.northwestern.edu"
@@ -66,5 +61,4 @@ experience:
   date_start: "2008-09-01"
   description: Masters in Political Science
   location: Evanston, IL
-  title: 
 ---

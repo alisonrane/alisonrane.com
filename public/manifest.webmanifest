@@ -1,0 +1,18 @@
+{
+  "name": "Alison Rane",
+  "short_name": "Alison Rane",
+  "lang": "en-us",
+  "theme_color": "#2962ff",
+  "background_color": "#2962ff",
+  "icons": [{
+    "src": "/images/icon_hu3eb0768e21314912bb27518a2506d1ae_663_192x192_fill_lanczos_center_3.png",
+    "sizes": "192x192",
+    "type": "image/png"
+    }, {
+    "src": "/images/icon_hu3eb0768e21314912bb27518a2506d1ae_663_512x512_fill_lanczos_center_3.png",
+    "sizes": "512x512",
+    "type": "image/png"
+     }],
+  "display": "standalone",
+  "start_url": "/?utm_source=web_app_manifest"
+}
