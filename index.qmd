@@ -1,0 +1,69 @@
+---
+title: ""
+image: img/main_img.jpg
+toc: false
+---
+<div class="full-view">
+<div class="grid">
+<div class="g-col-12 g-col-md-4">
+<div class="padded-top">
+
+![](img/main_img.jpg){.rounded-circle-shadow}
+<ul class="network-icon">
+<li><a href="mailto:hello@alisonrane.com">{{< fa envelope size=2x >}}</a></li>
+<li><a href="https://www.linkedin.com/in/alisonrane">{{< fa brands linkedin-in size=2x >}}</a></li>
+<li><a href="https://trailblazer.me/id/alisonrane">{{< fa brands salesforce size=2x >}}</a></li>
+<li><a href="https://github.com/alisonrane">{{< fa brands github size=2x >}}</a></li>
+</ul>
+</div>
+</div>
+
+<div class="g-col-12 g-col-md-8">
+
+## Hi!
+
+I’m Alison, and I am a data strategist and analyst for mission-driven organizations. I’m an optimizer and system-builder by nature, addressing organizational problems with data. 
+
+My experience includes data analysis projects for education and health science nonprofits; designing, building, and managing internal databases and applications; leading a CRM upgrade and implementation of new business systems; building BI dashboards; and management of CRM and IT services for a professional services firm.
+
+</div>
+</div>
+</div>
+
+<div class="inner-but-full">
+<div class="column-body">
+## Toolkit
+
+<div class="toolkit-container">
+<div class="toolkit-item">
+<div class="toolkit-icon">{{< fa chart-line size=2x >}}</div>
+<div class="toolkit-title">Data Visualization</div>
+<div class="toolkit-desc">Shiny, Power BI, Tableau</div></div>
+
+<div class="toolkit-item">
+<div class="toolkit-icon">{{< fa brands git-alt size=2x >}}</div>
+<div class="toolkit-title">Git</div>
+<div class="toolkit-desc"></div><p><p></div>
+
+<div class="toolkit-item">
+<div class="toolkit-icon">{{< fa brands r-project size=2x >}}</div>
+<div class="toolkit-title">R/RStudio</div>
+<div class="toolkit-desc">Posit Workbench, Posit Connect</div></div>
+
+<div class="toolkit-item">
+<div class="toolkit-icon">{{< fa database size=2x >}}</div>
+<div class="toolkit-title">SQL/MySQL</div>
+<div class="toolkit-desc"></div></div>
+
+<div class="toolkit-item">
+<div class="toolkit-icon">{{< fa gift size=2x >}}</div>
+<div class="toolkit-title">Advancement</div>
+<div class="toolkit-desc">Shiny, Power BI, Tableau</div></div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>

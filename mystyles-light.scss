@@ -1,0 +1,47 @@
+/*-- scss:defaults --*/
+
+// Colors
+$snow3: #CDC9C9;
+$white: #FFFFFF;
+$dark-teal: #1A535C;
+$light-teal: #4ECDC4;
+$poppy: #FF6B6B;
+$yellow: #FFE66D;
+$black: #1B1B1B;
+
+// Base document colors
+$navbar-bg: $black; // navbar
+$navbar-fg: $white; // navbar foreground elements
+$navbar-hl: $poppy; // highlight color when hovering over navbar links
+$body-bg: $white; // page background 
+$body-color: $black; // page text 
+$footer-bg: $white; // footer 
+$link-color: $dark-teal; // hyperlinks 
+
+// Inline code
+$code-bg: $snow3; // inline code background color
+$code-color: $dark-teal; // inline code text color
+
+// Code blocks
+$code-block-bg: $snow3; // code block background color
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+/*-- scss:rules --*/
+h1, h3 {
+  letter-spacing: 1px;
+  font-weight: 700;
+  color: $snow3;
+}
+
+.title {
+  color: black;
+}
+
+.inner-but-full {
+  background-color: $light-teal;
+  position: relative;
+  padding: 110px 0 110px 0;
+  z-index: 0;
+}

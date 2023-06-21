@@ -1,0 +1,27 @@
+project:
+  type: website
+
+website:
+  title: "Alison Rane"
+  favicon: img/favicon.png
+  navbar:
+    pinned: true
+    search: false
+    left:
+      - href: index.qmd#toolkit
+        text: Toolkit
+        
+
+format:
+  html:
+    css: styles.css
+    theme:
+      light:
+        - mystyles-light.scss
+      dark: 
+        - mystyles-dark.scss
+    mainfont: Avenir
+    toc: true
+
+
+
