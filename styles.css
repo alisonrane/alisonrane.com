@@ -11,8 +11,8 @@
 }
 
 .full-view{
-  height: 100vh;
-  padding-top: 30px;
+  min-height: 100vh;
+  padding-top: 0.5em;
   z-index: 0;
 }
 
