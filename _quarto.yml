@@ -5,8 +5,9 @@ website:
   title: "Alison Rane"
   favicon: img/favicon.png
   navbar:
-    pinned: true
+    # logo: img/logoweb.png
     search: false
+    pinned: true
     left:
       - href: index.qmd#toolkit
         text: Toolkit

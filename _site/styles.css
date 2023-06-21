@@ -1,7 +1,8 @@
 /* css styles */
 
-.padded-top{
-  padding-top: 5rem;
+.profile{ 
+  justify-content: center;
+  text-align: center;
 }
 
 .rounded-circle-shadow{
@@ -12,12 +13,12 @@
 .full-view{
   height: 100vh;
   padding-top: 30px;
+  z-index: 0;
 }
 
 .network-icon {
   display: inline-flex;
   flex-direction: row;
-  justify-content: center;
   list-style: none;
   padding: 0;
   margin: 1.5em;

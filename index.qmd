@@ -5,8 +5,11 @@ toc: false
 ---
 <div class="full-view">
 <div class="grid">
+<div class="g-col-12">
+## Hi!
+</div>
 <div class="g-col-12 g-col-md-4">
-<div class="padded-top">
+<div class="profile">
 
 ![](img/main_img.jpg){.rounded-circle-shadow}
 <ul class="network-icon">
@@ -19,8 +22,6 @@ toc: false
 </div>
 
 <div class="g-col-12 g-col-md-8">
-
-## Hi!
 
 I’m Alison, and I am a data strategist and analyst for mission-driven organizations. I’m an optimizer and system-builder by nature, addressing organizational problems with data. 
 
