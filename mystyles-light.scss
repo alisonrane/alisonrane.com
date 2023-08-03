@@ -28,14 +28,26 @@ $code-block-bg: $snow3; // code block background color
 // Fonts
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
-/*-- scss:rules --*/
+  
+$open-sans: 'Open Sans', sans-serif;
+
+// Styles
+body {
+  font-family: $open-sans;
+  font-weight: normal;
+}
+
 h1, h3 {
+  font-family: $open-sans;
+  font-weight: normal;
   letter-spacing: 1px;
   font-weight: 700;
   color: $snow3;
 }
 
 .title {
+  font-family: $open-sans;
+  font-weight: bold;
   color: black;
 }
 
