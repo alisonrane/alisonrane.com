@@ -21,7 +21,7 @@ format:
         - mystyles-light.scss
       dark: 
         - mystyles-dark.scss
-    mainfont: Avenir
+    mainfont: Montserrat
     toc: true
 
 
