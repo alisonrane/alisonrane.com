@@ -1,0 +1,22 @@
+---
+import Base from "../layouts/Base.astro";
+// resume.md is copied in from the resume repo by `npm run sync-resume`.
+import { Content } from "../content/resume.md";
+---
+
+<Base
+  title="Resume | Alison Rane"
+  description="Resume of Alison Rane, data engineering, automation, and business intelligence leader."
+>
+  <section>
+    <div class="wrap">
+      <div class="resume-actions">
+        <a class="btn btn-primary" href="/Alison-Rane-resume.pdf" download>Download PDF</a>
+        <a class="btn btn-ghost" href="/#contact">Get in touch</a>
+      </div>
+      <article class="resume">
+        <Content />
+      </article>
+    </div>
+  </section>
+</Base>
