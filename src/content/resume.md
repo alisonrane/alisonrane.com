@@ -71,13 +71,13 @@ Data engineering, automation, and business intelligence leader with nearly fifte
 
 ## Skills
 
-**Data engineering & automation:** Microsoft Fabric · Power BI · Power Automate · Lakehouse & data model design · Azure DevOps · Git & deployment pipelines · R / Shiny · Tableau
+**Design & engineering:** Analytics architecture · Lakehouse & data model design · System integration & APIs · Workflow automation · CI/CD & deployment pipelines · Dashboard & report design · AI-assisted development
 
-**AI tools:** Claude · ChatGPT · Copilot Studio
+**Platforms:** Microsoft Fabric · Power BI · Power Automate · Copilot Studio · Azure DevOps · Claude · ChatGPT
 
-**Source systems & APIs:** Blackbaud Raiser's Edge NXT & CRM · Blackbaud SKY API · Salesforce · Microsoft Dynamics 365 (Ellucian Advance)
+**Fundraising systems:** Blackbaud Raiser's Edge NXT & CRM · Blackbaud SKY API · Salesforce · Microsoft Dynamics 365 (Ellucian Advance)
 
-**Leadership:** Client advisory & business development · Solution architecture · Training & documentation · Team management
+**Consulting:** Requirements discovery · Client advisory & business development · Training & documentation
 
 ## Education
 
