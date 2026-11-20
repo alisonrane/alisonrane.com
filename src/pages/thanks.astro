@@ -1,13 +1,38 @@
 ---
 import Base from "../layouts/Base.astro";
+
+// Seconds before sending the visitor back to the homepage.
+const delay = 8;
 ---
 
-<Base title="Thanks | Alison Rane">
-  <section>
+<Base title="Thanks | Alison Rane" description="Thanks for reaching out.">
+  <Fragment slot="head">
+    <meta name="robots" content="noindex" />
+    <meta http-equiv="refresh" content={`${delay};url=/`} />
+  </Fragment>
+
+  <section class="thanks">
     <div class="wrap">
+      <p class="eyebrow">Message sent</p>
       <h1>Thanks for reaching out!</h1>
-      <p>Your message is on its way. I'll get back to you soon.</p>
-      <p><a class="btn btn-primary" href="/">Back to home</a></p>
+      <p>I've got your note and will get back to you soon.</p>
+      <p class="muted" aria-live="polite">
+        Taking you back to the homepage in <span id="countdown">{delay}</span> seconds.
+      </p>
+      <p><a class="btn btn-primary" href="/">Back to home now</a></p>
     </div>
   </section>
+
+  <script is:inline define:vars={{ delay }}>
+    let left = delay;
+    const el = document.getElementById("countdown");
+    const tick = setInterval(() => {
+      left -= 1;
+      if (el && left >= 0) el.textContent = String(left);
+      if (left <= 0) {
+        clearInterval(tick);
+        location.href = "/";
+      }
+    }, 1000);
+  </script>
 </Base>
