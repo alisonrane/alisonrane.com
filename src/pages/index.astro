@@ -24,15 +24,13 @@ const toolkit = [
 const caseStudies = [
   {
     client: "South Dakota State University Alumni & Foundation",
-    title: "Microsoft Fabric data warehouse for Raiser's Edge NXT",
-    summary: "A Fabric data warehouse built on Raiser's Edge NXT data.",
+    title: "Microsoft Fabric lakehouse for Raiser's Edge NXT",
     link: "https://www.blackbaud.com/customer-stories/south-dakota-state-university-alumni-foundation",
     source: "Blackbaud customer story",
   },
   {
     client: "Minnesota State University, Mankato",
     title: "Business intelligence dashboards",
-    summary: "Custom Power BI dashboards for fundraising and prospect management.",
     link: "https://bwfzuri.com/client/minnesota-state-university-mankato/",
     source: "BWF Zuri case study",
   },
@@ -43,7 +41,6 @@ const talks = [
   {
     title: "Microsoft Fabric for Raiser's Edge NXT Data Warehousing",
     events: ["bbdevdays 2026", "CASE DRIVE 2026"],
-    summary: "Using Microsoft Fabric as a data warehouse for Raiser's Edge NXT.",
     recording: "https://www.youtube.com/watch?v=urjTnsF7u7A",
   },
 ];
@@ -132,7 +129,6 @@ const talks = [
             <a class="card card-link" href={study.link}>
               <p class="meta">{study.client}</p>
               <h3>{study.title}</h3>
-              <p>{study.summary}</p>
               <span class="read-more">{study.source} →</span>
             </a>
           ))
@@ -151,7 +147,6 @@ const talks = [
             <div class="card talk">
               <p class="meta">{talk.events.join(" · ")}</p>
               <h3>{talk.title}</h3>
-              <p>{talk.summary}</p>
               {talk.recording && (
                 <a class="read-more" href={talk.recording}>
                   Watch the bbdevdays recording →
