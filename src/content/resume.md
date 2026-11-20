@@ -14,7 +14,7 @@ Data engineering, automation, and business intelligence leader with nearly fifte
 
 *Associate Vice President (Jun 2026 – Present) · Senior Director of Business Intelligence (Dec 2025 – Jun 2026) · Director of Business Intelligence (Oct 2023 – Dec 2025)*
 
-- Architect end-to-end analytics on Microsoft Fabric and Power BI that measure and drive fundraising results across source systems including Raiser's Edge NXT, Blackbaud CRM, Salesforce, and Dynamics (Ellucian Advance).
+- Architect end-to-end analytics on Microsoft Fabric and Power BI that measure and drive fundraising results across source systems including Raiser's Edge NXT, Blackbaud CRM, Salesforce (Affinaquest, Ascend), and Dynamics (Ellucian Advance).
 - Built the Fabric infrastructure and schema behind three client products: hosted dashboards, annual giving dashboards, and benchmarking.
 - Designed deployment pipelines in Azure DevOps that push changes from a central template repository to every client environment.
 - Led five Microsoft Fabric implementations, both hands-on and in an advisory role.
@@ -75,7 +75,7 @@ Data engineering, automation, and business intelligence leader with nearly fifte
 
 **Platforms:** Microsoft Fabric · Power BI · Power Automate · Copilot Studio · Azure DevOps · Claude · ChatGPT
 
-**Fundraising systems:** Blackbaud Raiser's Edge NXT & CRM · Blackbaud SKY API · Salesforce · Microsoft Dynamics 365 (Ellucian Advance)
+**Fundraising systems:** Blackbaud Raiser's Edge NXT & CRM · Blackbaud SKY API · Salesforce (Affinaquest, Ascend) · Microsoft Dynamics 365 (Ellucian Advance)
 
 **Consulting:** Requirements discovery · Client advisory & business development · Training & documentation
 
