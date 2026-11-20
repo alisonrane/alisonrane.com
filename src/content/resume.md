@@ -71,7 +71,7 @@ Data engineering, automation, and business intelligence leader with nearly fifte
 
 ## Skills
 
-**Design & engineering:** Analytics architecture · Lakehouse & data model design · System integration & APIs · Workflow automation · CI/CD & deployment pipelines · Dashboard & report design · AI-assisted development
+**Design & engineering:** Analytics architecture · Lakehouse & data model design · System integration & APIs · Workflow automation · Deployment pipelines & version control · Dashboard & report design · AI-assisted development
 
 **Platforms:** Microsoft Fabric · Power BI · Power Automate · Copilot Studio · Azure DevOps · Claude · ChatGPT
 
