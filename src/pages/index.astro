@@ -1,0 +1,206 @@
+---
+import Base from "../layouts/Base.astro";
+
+const toolkit = [
+  {
+    title: "Data engineering",
+    items: ["Microsoft Fabric", "SQL", "Azure DevOps", "Git & deployment pipelines"],
+  },
+  {
+    title: "Business intelligence",
+    items: ["Power BI", "Tableau", "R & Shiny"],
+  },
+  {
+    title: "Automation & AI",
+    items: ["Power Automate", "Copilot Studio", "Claude", "ChatGPT"],
+  },
+  {
+    title: "Fundraising systems",
+    items: ["Raiser's Edge NXT & Blackbaud CRM", "Blackbaud SKY API", "Salesforce", "Dynamics 365 (Ellucian Advance)"],
+  },
+];
+
+// Public case studies. Add more objects here as they're published.
+const caseStudies = [
+  {
+    client: "South Dakota State University Alumni & Foundation",
+    title: "Microsoft Fabric data warehouse for Raiser's Edge NXT",
+    summary:
+      "Guided a Fabric implementation fed from Raiser's Edge NXT through the SKY API and Power Automate, delivered in under a year. Annual giving summaries went from about four hours to ten minutes, and fundraisers gained visibility into every open pledge.",
+    link: "https://www.blackbaud.com/customer-stories/south-dakota-state-university-alumni-foundation",
+    source: "Blackbaud customer story",
+  },
+  {
+    client: "Minnesota State University, Mankato",
+    title: "Business intelligence dashboards",
+    summary:
+      "Pulled Raiser's Edge NXT data through the Blackbaud SKY API into Power BI dashboards for fundraising progress, portfolio reviews, and prospect engagement. The dashboards replaced a manual year-over-year report, and a follow-up engagement added an athletics campaign tracker.",
+    link: "https://bwfzuri.com/client/minnesota-state-university-mankato/",
+    source: "BWF Zuri case study",
+  },
+];
+
+// Talks. `events` lists every conference where it was given; `recording` is optional.
+const talks = [
+  {
+    title: "Microsoft Fabric for Raiser's Edge NXT Data Warehousing",
+    events: ["bbdevdays 2026", "CASE DRIVE 2026"],
+    summary:
+      "How South Dakota State University Alumni & Foundation implemented Microsoft Fabric as a data warehouse for Raiser's Edge NXT.",
+    recording: "https://www.youtube.com/watch?v=urjTnsF7u7A",
+  },
+];
+---
+
+<Base>
+  <section class="hero" aria-labelledby="hi">
+    <div class="wrap">
+      <img
+        class="portrait"
+        src="/img/main_img.jpg"
+        alt="Portrait of Alison Rane"
+        width="220"
+        height="220"
+      />
+      <div>
+        <h1 id="hi">Hi, I'm Alison.</h1>
+        <p class="lede">
+          I build data platforms, automation, and business intelligence that help mission-driven
+          organizations act on their data.
+        </p>
+        <p>
+          I'm an optimizer and system-builder by nature. For nearly fifteen years I've worked where
+          fundraising meets data: automating the busywork and connecting systems to surface insights
+          that drive action.
+        </p>
+        <p>
+          In the past three years alone I've worked with more than 30 higher education, healthcare,
+          and nonprofit clients. I design analytics end to end on Microsoft Fabric and Power BI, build
+          the pipelines and automation that feed them, and help teams put what we build to use.
+        </p>
+        <div class="cta">
+          <a class="btn btn-primary" href="/resume/">View resume</a>
+          <a class="btn btn-ghost" href="#contact">Get in touch</a>
+        </div>
+        <ul class="social">
+          <li>
+            <a href="https://www.linkedin.com/in/alisonrane" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.5h4V21H3zM9.5 9.5h3.8v1.6h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V21h-4v-5.2c0-1.24-.02-2.84-1.73-2.84-1.73 0-2 1.35-2 2.75V21h-4z"></path></svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/alisonrane" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.7 5.39-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z"></path></svg>
+            </a>
+          </li>
+          <li>
+            <a href="#contact" aria-label="Contact form">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="m3 7 9 6 9-6"></path></svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="alt" id="toolkit" aria-labelledby="toolkit-title">
+    <div class="wrap">
+      <p class="eyebrow">What I work with</p>
+      <h2 class="section-title" id="toolkit-title">Toolkit</h2>
+      <div class="grid">
+        {
+          toolkit.map((group) => (
+            <div class="card">
+              <h3>{group.title}</h3>
+              <ul>
+                {group.items.map((item) => (
+                  <li>{item}</li>
+                ))}
+              </ul>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <section id="work" aria-labelledby="work-title">
+    <div class="wrap">
+      <p class="eyebrow">Case studies</p>
+      <h2 class="section-title" id="work-title">Selected work</h2>
+      <div class="grid">
+        {
+          caseStudies.map((study) => (
+            <a class="card card-link" href={study.link}>
+              <p class="meta">{study.client}</p>
+              <h3>{study.title}</h3>
+              <p>{study.summary}</p>
+              <span class="read-more">{study.source} →</span>
+            </a>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <section class="alt" id="speaking" aria-labelledby="speaking-title">
+    <div class="wrap">
+      <p class="eyebrow">Conferences</p>
+      <h2 class="section-title" id="speaking-title">Speaking</h2>
+      <div class="grid">
+        {
+          talks.map((talk) => (
+            <div class="card talk">
+              <p class="meta">{talk.events.join(" · ")}</p>
+              <h3>{talk.title}</h3>
+              <p>{talk.summary}</p>
+              {talk.recording && (
+                <a class="read-more" href={talk.recording}>
+                  Watch the bbdevdays recording →
+                </a>
+              )}
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" aria-labelledby="contact-title">
+    <div class="wrap contact-grid">
+      <div>
+        <p class="eyebrow">Say hello</p>
+        <h2 class="section-title" id="contact-title">Contact</h2>
+        <p>
+          Questions about Microsoft Fabric, fundraising data, or speaking? Send a note and I'll get
+          back to you.
+        </p>
+      </div>
+      <form
+        name="contact"
+        method="POST"
+        action="/thanks/"
+        data-netlify="true"
+        netlify-honeypot="company"
+      >
+        <input type="hidden" name="form-name" value="contact" />
+        <p class="hidden">
+          <label>Leave this empty: <input name="company" tabindex="-1" autocomplete="off" /></label>
+        </p>
+        <div class="field">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" autocomplete="name" required />
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" autocomplete="email" required />
+        </div>
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <button class="btn btn-primary" type="submit">Send message</button>
+      </form>
+    </div>
+  </section>
+</Base>
