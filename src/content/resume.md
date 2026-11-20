@@ -71,7 +71,7 @@ Data engineering, automation, and business intelligence leader with nearly fifte
 
 ## Skills
 
-**Data engineering & automation:** Microsoft Fabric · Power BI · Power Automate · SQL / MySQL · Azure DevOps · Git & deployment pipelines · R / Shiny · Tableau
+**Data engineering & automation:** Microsoft Fabric · Power BI · Power Automate · Lakehouse & data model design · Azure DevOps · Git & deployment pipelines · R / Shiny · Tableau
 
 **AI tools:** Claude · ChatGPT · Copilot Studio
 
